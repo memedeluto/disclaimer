@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MMDL</title>
+    <title id="headerTitle">MemeDeLuto - Descargo de Responsabilidad</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/translations.js" defer></script>
+    <script src="js/translate.js" defer></script>
 </head>
+
 <body>
-    <h1>MMDL</h1>
+
+    <header>
+        <div class="container">
+            <h1 id="headerTitle">MemeDeLuto - Descargo de Responsabilidad</h1>
+            <nav>
+                <ul>
+                    <li><a href="#disclaimer" id="navDisclaimer">Descargo de Responsabilidad</a></li>
+                    <li><a href="#contenido" id="navContent">Contenido</a></li>
+                    <li><a href="#contacto" id="navContact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <button onclick="setLanguage('es')">ES</button>
+                <button onclick="setLanguage('en')">EN</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="disclaimer" class="section">
+        <div class="container">
+            <h2 id="disclaimerTitle">Descargo de Responsabilidad</h2>
+            <p id="disclaimerText">
+                Los contenidos publicados en esta página y redes sociales son de carácter humorístico...
+            </p>
+        </div>
+    </section>
+
+    <section id="contenido" class="section">
+        <div class="container">
+            <h2 id="contentTitle">Contenido</h2>
+            <p id="contentText">
+                El contenido publicado en esta plataforma es generado de manera satírica...
+            </p>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2 id="contactTitle">Contacto</h2>
+            <p id="contactText">
+                Si tienes alguna duda o deseas hacer una sugerencia...
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p id="footerText">&copy; 2024 MemeDeLuto. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
